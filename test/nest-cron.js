@@ -3,6 +3,15 @@ const Nest = require('node-nest')
 const NestCron = require('../lib/nest-cron')
 
 describe('NestCron', () => {
+  it('should create a instance', function () {
+    const cron = NestCron({
+      nest: {},
+      jobs: []
+    })
+
+    expect(cron).to.be.an.instanceof(NestCron)
+  })
+
   it('should use a instance of nest', function () {
     const nest = new Nest({ workers: 3 })
     const cron = new NestCron({
