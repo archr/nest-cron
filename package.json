@@ -1,0 +1,23 @@
+{
+  "name": "nest-cron",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "cron": "^1.2.1",
+    "lodash": "^4.17.4",
+    "node-nest": "git://github.com/archr/nest.git#v2-lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:archr/nest-cron.git"
+  },
+  "author": "Antonio Sandoval",
+  "license": "MIT",
+  "homepage": "https://github.com/archr/nest-cron#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
